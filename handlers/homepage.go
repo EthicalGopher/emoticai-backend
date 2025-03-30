@@ -19,7 +19,7 @@ type Response struct {
 	} `json:"choices"`
 }
 func Homepage(c *fiber.Ctx) error {
-	apiKey := "hl-2345201b-56e6-4a6b-8d5c-64b2e0d9b00d"
+	apiKey := "API KEY"
 	url := "https://api.helpingai.co/v1/chat/completions"
 	input := c.Query("input")
 	username := c.Query("username")
